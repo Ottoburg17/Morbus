@@ -6,14 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sablon</title>
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="container">    
-        <h1>Sablon</h1>
-    </div>
+        <h1>Dolgozók</h1>
 
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Név</th>
+                    <th>Település</th>
+                    <th>Fizetes</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>   
+            </table>
+        </div>
+        
+        <div id="about">
+            Németh ottó ,Szoft I-2 E, 2023-02-23
+        </div>
 
+        <script src="app.js"></script>
 </body>
 </html>

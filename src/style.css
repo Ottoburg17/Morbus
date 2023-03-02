@@ -1,0 +1,12 @@
+#about {
+    background-color: white;
+    border: 5px solid gold;
+    text-align: center;
+    position: fixed;
+    width: 600px;
+    top: 50px;
+    right: -230px;
+    transform: rotate(45deg);
+    font-size: 10px;
+
+}
